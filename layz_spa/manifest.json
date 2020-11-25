@@ -1,0 +1,12 @@
+{
+  "domain": "layz_spa",
+  "name": "Lay-Z Spa",
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/layz_spa",
+  "requirements": ["layz-spa==0.3"],
+  "ssdp": [],
+  "zeroconf": [],
+  "homekit": {},
+  "dependencies": [],
+  "codeowners": ["@rossdargan"]
+}
