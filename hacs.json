@@ -1,0 +1,9 @@
+{
+    "name": "Lay-Z Spa",
+    "hacs": "1.6.0",
+    "domains": [
+        "water_heater"
+    ],
+    "iot_class": "Cloud Polling",
+    "homeassistant": "0.118.0"
+}
