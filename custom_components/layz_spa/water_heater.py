@@ -214,13 +214,10 @@ class SpaWaterHeater(WaterHeaterEntity):
 
     async def async_turn_away_mode_on(self):
         """Turn away mode on."""
-        _LOGGER.warning("Turning Away mode on")
         await self.spa.set_heat_power(False)
 
     async def async_turn_away_mode_off(self):
         """Turn away mode off."""
-        _LOGGER.warning("Turning on heat")
         if not (self.spa.power):
-            _LOGGER.warning("Turning on power")
             await self.spa.set_power(True)
         await self.spa.set_heat_power(True)
