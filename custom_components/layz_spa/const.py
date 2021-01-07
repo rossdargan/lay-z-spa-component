@@ -7,3 +7,4 @@ CONF_DID = "did"
 
 COORDINATOR = "coordinator"
 HUB = "hub"
+ATTR_AWAY_MODE = "away"

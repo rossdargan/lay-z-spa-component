@@ -2,7 +2,6 @@ from homeassistant.core import callback
 from homeassistant.helpers.update_coordinator import DataUpdateCoordinator
 import logging
 from homeassistant.helpers.config_validation import string
-from homeassistant.components.nest import ATTR_AWAY_MODE
 from homeassistant.const import (
     ATTR_TEMPERATURE,
     CONF_NAME,
@@ -29,7 +28,7 @@ from homeassistant.components.water_heater import (
 from homeassistant.helpers.temperature import display_temp as show_temp
 from homeassistant.util.temperature import convert as convert_temperature
 from layz_spa.spa import Spa
-from .const import CONF_DID, COORDINATOR, DOMAIN, HUB
+from .const import CONF_DID, COORDINATOR, DOMAIN, HUB, ATTR_AWAY_MODE
 
 DEFAULT_MIN_TEMP = 0
 DEFAULT_MAX_TEMP = 40
